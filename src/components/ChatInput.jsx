@@ -69,6 +69,10 @@ export function ChatInput({chatMessages,setChatMessages}) {
           setInputText('')
         }
       }
+      function ClearData(){
+        localStorage.clear();
+        setChatMessages([]);
+      }
       return (
         //to remove extra div use <></> fragment
         <div className="chat-input-container">
@@ -82,6 +86,7 @@ export function ChatInput({chatMessages,setChatMessages}) {
           /> 
           <button
           onClick={sendMessage} className="send-btn">Send</button>
+          <button className='clear-btn' onClick={ClearData}> Clear</button>
         </div>
       );
     }

@@ -18,3 +18,10 @@
       display: flex;
       margin-bottom: 20px;
     }
+    .clear-btn{
+      margin-left: 7px;
+    border-radius: 7px;
+    background-color: rgb(196, 195, 195);
+    border: none;
+    
+    }
