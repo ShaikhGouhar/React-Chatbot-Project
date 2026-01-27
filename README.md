@@ -1,12 +1,44 @@
-# React + Vite
+# 💬 React Chatbot Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, interactive **chatbot application built with React + Vite**.  
+This project is designed to be **beginner-friendly**, easy to understand, and open for community contributions.
 
-Currently, two official plugins are available:
+If you’re new to **React**, **open source**, or **GitHub contributions**, this repository is a great place to start 🌱
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ What This Project Does
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Allows users to interact with a chatbot through a clean UI
+- Responds instantly to user queries using a rule-based flow
+- Uses a third-party chatbot package for handling conversations
+- Lets developers easily add or modify responses directly in `App.jsx`
+- Works completely on the frontend — no backend required
+
+---
+
+## 🚀 Live Preview
+
+
+---
+
+## Tech Stack
+
+- **React.js**
+- **Vite**
+- **JavaScript (ES6+)**
+- **Third-party chatbot library**
+- **CSS**
+
+---
+
+## Project Structure (Overview)
+
+```text
+├── src/
+│   ├── App.jsx        # Main chatbot logic
+│   ├── components/    # UI components
+│   └── main.jsx
+├── public/
+├── package.json
+└── README.md
